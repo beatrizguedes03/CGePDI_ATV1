@@ -1,0 +1,909 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "script1/Script1"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"set_property",
+			"find_package",
+			"set_target_properties",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"script1/CMakeLists.txt",
+			"/usr/share/cmake/Modules/FindOpenGL.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 837,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 835,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"compileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "opencv_calib3d::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_core::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_dnn::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_features2d::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_flann::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_gapi::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_highgui::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_imgcodecs::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_imgproc::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_ml::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_objdetect::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_photo::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_stitching::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_video::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_videoio::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_alphamat::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_aruco::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_bgsegm::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_bioinspired::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_ccalib::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_cvv::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_datasets::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_dnn_objdetect::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_dnn_superres::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_dpm::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_face::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_freetype::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_fuzzy::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_hdf::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_hfs::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_img_hash::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_intensity_transform::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_line_descriptor::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_mcc::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_optflow::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_phase_unwrapping::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_plot::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_quality::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_rapid::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_reg::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_rgbd::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_saliency::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_shape::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_signal::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_stereo::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_structured_light::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_superres::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_surface_matching::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_text::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_tracking::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_videostab::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_viz::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_wechat_qrcode::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_ximgproc::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_xobjdetect::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_xphoto::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "OpenGL::GL::@d80458dc300707e393c4"
+		}
+	],
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++17"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/usr/include/opencv4"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "Script1::@d80458dc300707e393c4",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_gapi.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_stitching.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_alphamat.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_aruco.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_bgsegm.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_bioinspired.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_ccalib.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_cvv.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_dnn_objdetect.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_dnn_superres.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_dpm.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_face.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_freetype.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_fuzzy.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_hdf.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_hfs.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_img_hash.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_intensity_transform.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_line_descriptor.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_mcc.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_quality.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_rapid.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_reg.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_rgbd.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_saliency.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_shape.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_signal.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_stereo.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_structured_light.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_superres.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_surface_matching.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_tracking.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_videostab.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_viz.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_wechat_qrcode.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_xobjdetect.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_xphoto.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libglut.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_highgui.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_datasets.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_plot.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_text.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_ml.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_phase_unwrapping.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_optflow.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_ximgproc.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_video.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_videoio.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_imgcodecs.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_objdetect.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_calib3d.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_dnn.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_features2d.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_flann.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_photo.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_imgproc.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib64/libopencv_core.so.4.13.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib64/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/usr/lib64/libOpenGL.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "opencv_calib3d::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_core::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_dnn::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_features2d::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_flann::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_gapi::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_highgui::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_imgcodecs::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_imgproc::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_ml::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_objdetect::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_photo::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_stitching::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_video::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_videoio::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_alphamat::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_aruco::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_bgsegm::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_bioinspired::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_ccalib::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_cvv::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_datasets::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_dnn_objdetect::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_dnn_superres::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_dpm::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_face::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_freetype::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_fuzzy::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_hdf::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_hfs::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_img_hash::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_intensity_transform::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_line_descriptor::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_mcc::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_optflow::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_phase_unwrapping::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_plot::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_quality::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_rapid::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_reg::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_rgbd::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_saliency::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_shape::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_signal::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_stereo::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_structured_light::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_superres::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_surface_matching::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_text::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_tracking::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_videostab::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_viz::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_wechat_qrcode::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_ximgproc::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_xobjdetect::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "opencv_xphoto::@d80458dc300707e393c4"
+		},
+		{
+			"backtrace" : 2,
+			"fragment" : "/usr/lib64/libglut.so"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "OpenGL::GL::@d80458dc300707e393c4"
+		}
+	],
+	"name" : "Script1",
+	"nameOnDisk" : "Script1",
+	"paths" : 
+	{
+		"build" : "script1",
+		"source" : "script1"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "script1/Script1.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

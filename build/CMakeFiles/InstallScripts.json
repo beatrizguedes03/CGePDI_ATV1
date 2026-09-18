@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/beatrizguedesprofissional/Projetos/CGePDI_ATV1/build/cmake_install.cmake",
+		"/home/beatrizguedesprofissional/Projetos/CGePDI_ATV1/build/script1/cmake_install.cmake",
+		"/home/beatrizguedesprofissional/Projetos/CGePDI_ATV1/build/script2/cmake_install.cmake",
+		"/home/beatrizguedesprofissional/Projetos/CGePDI_ATV1/build/script3/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

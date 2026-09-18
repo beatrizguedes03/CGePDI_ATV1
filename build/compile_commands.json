@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/beatrizguedesprofissional/Projetos/CGePDI_ATV1/build/script1",
+  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/Script1.dir/Script1.cpp.o -c /home/beatrizguedesprofissional/Projetos/CGePDI_ATV1/script1/Script1.cpp",
+  "file": "/home/beatrizguedesprofissional/Projetos/CGePDI_ATV1/script1/Script1.cpp",
+  "output": "script1/CMakeFiles/Script1.dir/Script1.cpp.o"
+},
+{
+  "directory": "/home/beatrizguedesprofissional/Projetos/CGePDI_ATV1/build/script2",
+  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/Script2.dir/Script2.cpp.o -c /home/beatrizguedesprofissional/Projetos/CGePDI_ATV1/script2/Script2.cpp",
+  "file": "/home/beatrizguedesprofissional/Projetos/CGePDI_ATV1/script2/Script2.cpp",
+  "output": "script2/CMakeFiles/Script2.dir/Script2.cpp.o"
+},
+{
+  "directory": "/home/beatrizguedesprofissional/Projetos/CGePDI_ATV1/build/script3",
+  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/Script3.dir/Script3.cpp.o -c /home/beatrizguedesprofissional/Projetos/CGePDI_ATV1/script3/Script3.cpp",
+  "file": "/home/beatrizguedesprofissional/Projetos/CGePDI_ATV1/script3/Script3.cpp",
+  "output": "script3/CMakeFiles/Script3.dir/Script3.cpp.o"
+}
+]
