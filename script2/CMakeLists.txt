@@ -12,7 +12,6 @@ find_package(GLUT REQUIRED)
 add_executable(Script2
     Script2.cpp
 )
-
 target_include_directories(Script2 PRIVATE
     ${OpenCV_INCLUDE_DIRS}
     ${GLUT_INCLUDE_DIRS}

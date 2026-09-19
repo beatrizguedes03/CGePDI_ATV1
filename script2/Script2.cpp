@@ -6,7 +6,7 @@
 cv::Mat CarregarImagem(std::string caminho) {
     cv::Mat imagem = cv::imread(caminho);
     if(imagem.empty()){
-        std::cout << "Nao axeir" << std::endl;
+        std::cout << "Foto nao encontrada" << std::endl;
         return cv::Mat();
     }
     return imagem;
@@ -14,9 +14,9 @@ cv::Mat CarregarImagem(std::string caminho) {
 
 std::vector<cv::Mat> ComponentesCor(cv::Mat imagem) {
 
-    // =========================
-    // FOTO SÉPIA
-    // =========================
+
+    // SÉPIA
+
     cv::Mat img1 = cv::Mat::zeros(imagem.size(), imagem.type());
 
     cv::Mat kernelSepia = (cv::Mat_<float>(3, 3) <<
@@ -27,10 +27,8 @@ std::vector<cv::Mat> ComponentesCor(cv::Mat imagem) {
 
     cv::transform(imagem, img1, kernelSepia);
 
+    // GRANULADA
 
-    // =========================
-    // FOTO GRANULADA
-    // =========================
     cv::Mat img2 = cv::Mat::zeros(imagem.size(), imagem.type());
 
     cv::Mat ruido = cv::Mat::zeros(imagem.size(), imagem.type());
@@ -42,9 +40,7 @@ std::vector<cv::Mat> ComponentesCor(cv::Mat imagem) {
     cv::add(imagem, ruido, img2);
 
 
-    // =========================
-    // FOTO MAIS ROXA
-    // =========================
+    // MAIS ROXA
     cv::Mat img3 = cv::Mat::zeros(imagem.size(), imagem.type());
 
     int mapa3[] = {
@@ -93,7 +89,6 @@ int main(){
     cv::Mat imagem2 = comps[1];
     cv::Mat imagem3 = comps[2];
 
-
     // Recebe e extrai a imagem cinza e a RGB
     std::vector<cv::Mat> elems = ElementosCor(imagem);
     cv::Mat imagemc = elems[0];
@@ -108,8 +103,8 @@ int main(){
     cv::vconcat(linha1, linha2, painelFinal);
 
     // Exibe tudo de uma vez
-    cv::namedWindow("Painel de Imagens", cv::WINDOW_NORMAL);
-    cv::imshow("Painel de Imagens", painelFinal);
+    cv::namedWindow("Script 2", cv::WINDOW_NORMAL);
+    cv::imshow("Script 2", painelFinal);
     cv::waitKey(0);
 
     return 0;
